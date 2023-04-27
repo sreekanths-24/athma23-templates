@@ -63,7 +63,7 @@ form{
 }
 
 .dropdowns .spec{
-    width: 40%;
+    width: 30%;
     height: 45px;
     background-color: #0e0d0d;
     padding: 5px;
@@ -71,9 +71,15 @@ form{
     border: 1px solid white;
     border-radius: 3px;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
 
 }
+
+.dropdowns .spec:focus{
+    background-color: #0e0d0d;
+    color: white;
+}
+
 
 @media screen and (min-width: 400px) {
     .dropdowns{
@@ -89,19 +95,19 @@ form{
         gap: 5px;
     }
     .dropdowns .spec{
-        width: 43%;
+        width: 42%;
     }
 }
 .inputfield, .temp2{
     margin: 10px auto;
-    width: 90%;
+    width: 80%;
     height: 55px;
-    padding: 0px 5px;
+    padding: 0px 20px;
     background-color: #0e0d0d;
     border: 1px solid white;
     border-radius: 3px;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .temp3{
     color: whitesmoke;
