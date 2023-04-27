@@ -50,6 +50,11 @@ form{
     text-align: center;
     
 }
+
+header a img{
+    width: 30px;
+    height: auto;
+}
 #logo{
     margin: 20px auto;
 }
