@@ -59,11 +59,11 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .dropdowns .spec{
-    width: 42%;
+    width: 40%;
     height: 25px;
     background-color: #0e0d0d;
     padding: 5px;
